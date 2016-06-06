@@ -1,7 +1,7 @@
 # codingLessons
 Train coding skills on javascript
 
-In this secction you can find a list of lessons for coding skills. It has a soluion on javaScripot.
+In this secction you can find a list of lessons for coding skills. It has a soluion on javaScript.
 
 #### Lesson 1
 ###### BinaryGap

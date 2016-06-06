@@ -8,7 +8,7 @@ For example, number 9 has binary representation 1001 and contains a binary gap o
 
 
 ```
-function soluction (num) {
+function solution (num) {
   var binary = num.toString(2);
   return binary.split(1).sort().reverse()[0].length;
 }

@@ -11,6 +11,7 @@ function solution (myArry, k) {
     k--;
   }
   return myArry;
+}
 ```
 
 # OddOccurrencesInArray
@@ -28,14 +29,18 @@ the elements at indexes 4 and 6 have value 9,
 the element at index 5 has value 7 and is unpaired.
 
 ```
-function solution (myArry) {
-  myArry.forEach( function (e, p) {
-    var resultElement = myArry.filter( function (ef) {
+function solution (myArray) {
+  var res;
+  myArray.forEach( function (e, p) {
+    var resultElement = myArray.filter( function (ef) {
       return ef !=e;
     });
 
-    if(resultElement.length == (myArry.length-1)) {
-      console.log("the element at index " + p + " has value " + e + " and is unpaired");
+    if(resultElement.length == (myArray.length-1)) {
+      // console.log("the element at index " + p + " has value " + e + " and is unpaired");
+      res = e;
     }
   });
+  return res;
+}
 ```
