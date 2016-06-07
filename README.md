@@ -17,3 +17,7 @@ Finde value that occurs in odd number of elements.
 #### Lesson 3
 ###### FrogJmp
 Count minimal number of jumps from position X to Y.
+
+#### Lesson 4
+###### FrogRiverOne
+Find the earliest time when a frog can jump to the other side of a river.
