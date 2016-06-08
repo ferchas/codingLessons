@@ -21,3 +21,7 @@ Count minimal number of jumps from position X to Y.
 #### Lesson 4
 ###### FrogRiverOne
 Find the earliest time when a frog can jump to the other side of a river.
+
+#### Lesson 5
+###### PassingCars
+Count the number of passing cars on the road.
